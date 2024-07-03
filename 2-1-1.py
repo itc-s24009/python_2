@@ -1,1 +1,2 @@
-print(77 % 11)
+import math
+print(math.gcd(253,341))
