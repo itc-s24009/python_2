@@ -9,3 +9,8 @@ print()
 print(*arg_vals)
 print(arg_vals)
 
+
+print(pow(*divmod(20,3)))
+sample_list = [2,3,4]
+list(map(str,sample_list))
+print(sample_list)

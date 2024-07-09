@@ -7,7 +7,7 @@ print('apple' in my_str)
 print(3 not in my_list)
 X = None
 print(X is None)
-print(X in not None)
+print(X is not None)
 
 
 
