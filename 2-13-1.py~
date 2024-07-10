@@ -1,5 +1,0 @@
-import random as rad
-from random import randint
-
-print(rad.randint(0,10))
-print(randint(0,10))
