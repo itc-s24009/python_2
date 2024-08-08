@@ -1,0 +1,6 @@
+data = "すもももももももものうち"
+import collections
+count_dic = collections.defaultdict(list)
+for v in data:
+    count_dic[v].append(v)
+print(count_dic)
