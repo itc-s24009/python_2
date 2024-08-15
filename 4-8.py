@@ -1,3 +1,4 @@
+
 def show_how_it_works(func):
     def my_function(*args, **kwargs):
         print('Running function:', func.__name__)
@@ -11,6 +12,6 @@ def show_how_it_works(func):
 @show_how_it_works
 def add_two_numbers(a,b):
     return a + b
-
-add_two_numbers(1,8)
+if __name__ == "__main__":
+    add_two_numbers(2,3)
 
